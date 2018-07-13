@@ -28,7 +28,7 @@ public class UploadController {
                                    RedirectAttributes redirectAttributes) {
 
         if (file.isEmpty()) {
-            redirectAttributes.addFlashAttribute("message", "Please select two file to upload");
+            redirectAttributes.addFlashAttribute("message", "Please select three file to upload");
             return "redirect:uploadStatus";
         }
 
